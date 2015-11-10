@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-fiery-events-sample",
+  "version": "1.0.0",
+  "description": "sample program to demonstrate how to receive fiery events",
+  "main": "fiery_events.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fieryapi/node-js-fiery-events-sample.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vasync": "^1.6.3"
+  },
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "private": true
+}
