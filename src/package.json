@@ -4,6 +4,7 @@
   "description": "sample program to demonstrate how to receive fiery events",
   "main": "fiery_events.js",
   "scripts": {
+    "start": "node fiery_events.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +14,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "vasync": "^1.6.3"
+    "vasync": "^1.6.3",
+    "ws": "^1.1.0"
   },
   "engines": {
     "node": ">=0.10.3"

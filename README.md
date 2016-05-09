@@ -1,6 +1,6 @@
 ## Sample Node.js Program To Demonstrate How To Receive Fiery Events
 
-Setup the modules in `src` directory with `npm install`, modify `fiery_events.js` in the configuration section to connect to the Fiery then execute the script with `node fiery_events`.
+Setup the modules in `src` directory with `npm install`, modify `fiery_events.js` in the configuration section to connect to the Fiery then execute the script with `npm start`.
 
 The sample program runs three scenarios:
 

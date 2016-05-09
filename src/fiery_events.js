@@ -278,4 +278,4 @@ function runWebsocket(cookie, callback) {
     });
 }
 
-receiveFieryEvents();
+//receiveFieryEvents();
