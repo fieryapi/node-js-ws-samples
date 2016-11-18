@@ -32,7 +32,7 @@ function login(callback) {
 
     var options = {
         hostname: hostname,
-        path: '/live/api/v2/login',
+        path: '/live/api/v3/login',
         method: 'POST',
         headers: {
             content_type: 'application/json',
@@ -64,7 +64,7 @@ function login(callback) {
 function logout(cookie, callback) {
     var options = {
         hostname: hostname,
-        path: '/live/api/v2/logout',
+        path: '/live/api/v3/logout',
         method: 'POST',
         headers: {
             cookie: cookie,
@@ -248,7 +248,7 @@ function runWebsocket(cookie, callback) {
     };
 
     // open websocket connection
-    ws = new WebSocket('wss://' + hostname + '/live/api/v2/events', options);
+    ws = new WebSocket('wss://' + hostname + '/live/api/v3/events', options);
 
     ws.on('open', function() {
         console.log("new websocket connection is opened");
